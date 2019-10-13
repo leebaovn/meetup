@@ -4,27 +4,32 @@
 		<meta charset="utf-8">
 		<title>Share your passions | Meetup</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 	</head>
-
 	<body>
-		<header>
-			<nav class="nav-bar">
-				<img src="https://www.meetup.com/mu_static/fr-FR/logo--script.004ada05.svg" height="44px" class="logo">
-				<ul class="list-nav">
-					<li class="group"><a href="#">Create a group</a></li>
-					<li class="log-in"><a href="#">Log in</a></li>
-					<li class="log-in"><a href="#">Registration</a></li>
+		<div class="header">
+			<div class= "logo">
+				<a href="#"><img src="https://www.meetup.com/mu_static/fr-FR/logo--script.004ada05.svg" alt="logo" height="44px"></a>
+			</div>
+			<div class="navigation">
+				<ul>
+					<li><a href="#">Create a group</a></li>
+					<li><a href="#">Log in</a></li>
+					<li><a href="#">Registration</a></li>
 				</ul>
-			</nav>
-		</header>
-
-		<div class="content">
-			<video class="video-demo" autoplay loop>
-				<source src="https://www.meetup.com/mu_static/fr-FR/video.dddafbfe.mp4">
-			</video>
+			</div>
 		</div>
-		<div class="items">
-			<ul class="list-items">
+		<!--End Header Navigation -->
+		<div class="img-section">
+			<div class="img-content">
+				<h1>The World is reaching out</h1>
+				<p>Join a local group to meet people, test a new activity or share your passions.</p>
+				<button class="btn-ct">Join meetup</button>
+			</div>
+		</div>
+		<!-- End img section -->
+		<div class="option">
+			<ul>
 				<li><a href="#">Join a movement</a></li>
 				<li><a href="#">To cook</a></li>
 				<li><a href="#">Running a marathon</a></li>
@@ -32,8 +37,58 @@
 				<li><a href="#">Sail</a></li>
 				<li><a href="#">Practice a language</a></li>
 			</ul>
-			
 		</div>
-		<hr style="color: #CCC">
+		<hr>
+
+		<div class="info-section">
+			<div class="events">
+				<div class="desc">
+					<h2>Events nearby</h2>
+					<a href="#" class="seeall-btn">See everything</a>
+					<p>Find out what's happening soon near you.</p>
+				</div>
+				<div class="event-item">
+					<div class="item">
+						<p class="date">Mon 14 Oct, 19:00</p>
+						<h3>An evening with Larry Cohen</h3>
+						<p>France for Bernie 2020</p>
+						<p class="location"><i class="fas fa-map-marker-alt"></i>Patrick's Green Balloon</p>
+						<span>10 participants</span>
+						<a href="#" class="par-btn">Participate</a>
+					</div>
+					<div class="item">
+						<p class="date">Mon 14 Oct, 20:00</p>
+						<h3>Let's democratize the improve:intro to the America...</h3>
+						<p>AFILA: American Improvisation in Fra...</p>
+						<p class="location"><i class="fas fa-map-marker-alt"></i>St Roch Area</p>
+						<span>5 participants</span>
+						<a href="#" class="par-btn">Participate</a>
+					</div>
+					<div class="item">
+						<p class="date">Tue Oct 15, 5:00 pm</p>
+						<h3>Writers' Feedback Session</h3>
+						<p>Paris Scriptorium</p>
+						<p class="location"><i class="fas fa-map-marker-alt"></i>Coffee of the Banks of the Seine</p>
+						<span>6 participants</span>
+						<a href="#" class="par-btn">Participate</a>
+					</div>
+				</div>
+			</div>
+			<div class="group">
+				<div class="desc">
+					<h2>Group near you</h2>
+					<a href="#" class="seeall-btn">See everything</a>
+					<p>Find groups that meet to share activities together.</p>
+					
+				</div>
+			</div>
+			<div class="categories">
+				<div class="desc">
+					<h2>Categories</h2>
+					<p>Browse the groups by theme.</p>
+					
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
